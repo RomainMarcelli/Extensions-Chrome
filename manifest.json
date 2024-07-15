@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Connect Call Focus",
+  "version": "1.0",
+  "description": "Amène la page de l'appel entrant en premier plan.",
+  "permissions": [
+      "tabs"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  }
+}
